@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- tema za celotno aplikacijo -->
+    <style name="Theme_ParkingInLjubljana" parent="@style/Theme.AppCompat">
+        <item name="actionBarStyle">@style/ParkingActionBar</item>
+        <item name="android:listViewStyle">@style/ParkingListView</item>
+    </style>
+
+    <!-- stil za action bar -->
+    <style name="ParkingActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="actionBarDivider">@color/parking_lot_black</item>
+        <item name="titleTextStyle">@style/ParkingActionBarTitle</item>
+    </style>
+
+    <!-- stil za besedilo v action baru -->
+    <style name="ParkingActionBarTitle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/parking_lot_white</item>
+    </style>
+
+    <!-- stil za list view -->
+    <style name="ParkingListView" parent="android:Widget.ListView" >
+        <item name="android:background">@drawable/list_background</item>
+        <item name="android:divider">@drawable/list_divider</item>
+    </style>
+
+    <!-- colours -->
+    <color name="parking_lot_black">#000000</color>
+    <color name="parking_lot_light_black">#444444</color>
+    <color name="parking_lot_white">#ffffff</color>
+    <color name="parking_lot_blue">#3587BD</color>
+    <color name="parking_lot_slight_transparent_blue">#dd3587BD</color>
+    <color name="parking_lot_transparent_blue">#883587BD</color>
+
+</resources>

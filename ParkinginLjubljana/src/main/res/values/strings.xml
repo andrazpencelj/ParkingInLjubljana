@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Parkirišča v Ljubljani</string>
+    <string name="action_refresh">Osveži</string>
+    <string name="list_item_capacity">Število parkirnih mest</string>
+    <string name="main_activity_timeout_error">Prišlo je do napake pri prenosu. Poskusite znova.</string>
+    <string name="main_activity_connection_error">Prišlo je do težav s povezavo.</string>
+    <string name="main_activity_error">Prišlo je do napake.</string>
+    <string name="details_open">Obratovalni čas</string>
+    <string name="details_price">Cenik</string>
+    <string name="details_all">Število parkirnih mest</string>
+    <string name="details_disabled">Parkirna mesta za invalide</string>
+    <string name="details_occupacy">Prosta parkirna mesta</string>
+
+</resources>

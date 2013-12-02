@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:layout_weight="3" >
+
+        <TextView
+            android:id="@+id/parking_lot_list_name"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:ellipsize="end"
+            android:padding="5dp"
+            android:textColor="@color/parking_lot_light_black"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/parking_lot_list_open"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:ellipsize="end"
+            android:paddingLeft="5dp"
+            android:paddingBottom="5dp"
+            android:textColor="@color/parking_lot_light_black"
+            android:textSize="12dp"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/parking_lot_image1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/disabled"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/parking_lot_image2"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/parking"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+
+
+    <!--<TextView
+        android:id="@+id/parking_lot_list_name"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:padding="4dp"
+        android:textColor="@color/parking_lot_blue"
+        android:textSize="20dp"/>
+
+    <TableLayout
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent">
+
+        <TableRow>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_weight="2"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="@string/list_item_capacity"
+                    android:layout_gravity="left"
+                    android:paddingTop="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="@color/parking_lot_light_black"
+                    android:textSize="16dp"/>
+
+                <TextView
+                    android:id="@+id/parking_lot_list_capacity"
+                    android:layout_height="40dp"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="40dp"
+                    android:background="@drawable/circle_background"
+                    android:textColor="@color/parking_lot_light_black" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="15dp"
+                android:layout_weight="1" >
+
+                <LinearLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_alignParentRight="true">
+
+                    <ImageView
+                        android:id="@+id/parking_lot_image1"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:src="@drawable/disabled"/>
+
+                    <ImageView
+                        android:id="@+id/parking_lot_image2"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:src="@drawable/parking"/>
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+        </TableRow>
+
+    </TableLayout> -->
+
+
+
+
+</LinearLayout>
